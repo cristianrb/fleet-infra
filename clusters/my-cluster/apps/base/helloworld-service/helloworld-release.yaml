@@ -7,7 +7,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: cluster/my-cluster/charts/helloworld
+      chart: clusters/my-cluster/charts/helloworld
       sourceRef:
         kind: GitRepository
         name: helloworld2
