@@ -14,4 +14,4 @@ spec:
         namespace: helloworld
       interval: 1m
   values:
-    replicaCount: 1
+    replicaCount: 2
