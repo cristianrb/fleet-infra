@@ -8,8 +8,8 @@ spec:
   url: https://github.com/cristianrb/fleet-infra
   ref:
     branch: main
-  ignore: |
-    # exclude all
-    /*
-    # include charts directory
-    !/charts/    
+  # ignore: |
+  #   # exclude all
+  #   /*
+  #   # include charts directory
+  #   !/charts/    
