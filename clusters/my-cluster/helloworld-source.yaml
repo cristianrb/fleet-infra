@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: helloworld
+  name: helloworld2
   namespace: helloworld
 spec:
   interval: 1m
