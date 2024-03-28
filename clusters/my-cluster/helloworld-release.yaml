@@ -13,7 +13,7 @@ spec:
         name: helloworld
         namespace: helloworld
       valuesFiles:
-        - values2.yaml
+        - charts/helloworld/values2.yaml
       interval: 1m
   values:
     replicaCount: 2
