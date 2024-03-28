@@ -13,7 +13,6 @@ spec:
         name: helloworld
         namespace: helloworld
       valuesFiles:
-        - charts/helloworld/values.yaml
         - charts/helloworld/values2.yaml
       interval: 1m
   values:
