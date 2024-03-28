@@ -12,6 +12,8 @@ spec:
         kind: GitRepository
         name: helloworld
         namespace: helloworld
+      valuesFiles:
+        - values2.yaml
       interval: 1m
   values:
     replicaCount: 2
