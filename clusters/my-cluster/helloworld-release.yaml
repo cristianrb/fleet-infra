@@ -17,4 +17,4 @@ spec:
         - charts/helloworld/values2.yaml
       interval: 1m
   values:
-    replicaCount: 2
+    replicaCount: 1
