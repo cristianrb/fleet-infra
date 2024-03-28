@@ -1,15 +1,15 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta2
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: angi-helloworld
+  name: helloworld
   namespace: helloworld
 spec:
-  interval: 5m
-  url: https://github.com/dmyerscough/angi-helloworld
+  interval: 1m
+  url: https://github.com/cristianrb/fleet-infra
   ref:
     branch: main
-  ignore: |-
+  ignore: |
     # exclude all
     /*
     # include charts directory
-    !/charts/
+    !/charts/    
