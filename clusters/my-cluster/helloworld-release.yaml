@@ -4,13 +4,14 @@ metadata:
   name: helloworld
   namespace: helloworld
 spec:
-  interval: 1m
+  interval: 5m
   chart:
     spec:
       chart: charts/helloworld
       sourceRef:
         kind: GitRepository
         name: helloworld
+        namespace: helloworld
       interval: 1m
   values:
     replicaCount: 2
