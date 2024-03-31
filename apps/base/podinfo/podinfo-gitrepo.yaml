@@ -4,6 +4,7 @@ metadata:
   name: podinfo
   namespace: apps
 spec:
+  interval: 1m
   url: https://github.com/cristianrb/fleet-infra
   ref:
     branch: main
