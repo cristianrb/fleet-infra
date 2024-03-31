@@ -1,17 +1,18 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta2
 kind: HelmRelease
 metadata:
-  name: helloworld2
-  namespace: helloworld
+  name: podinfo
+  namespace: default
 spec:
-  interval: 5m
+  interval: 1m
   chart:
     spec:
-      chart: charts/helloworld
+      chart: charts/service-chart
+      version: '4.0.x'
       sourceRef:
         kind: GitRepository
-        name: helloworld2
-        namespace: helloworld
+        name: podinfo
+        namespace: flux-system
       interval: 1m
   values:
     replicaCount: 2
