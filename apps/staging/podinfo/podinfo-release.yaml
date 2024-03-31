@@ -17,5 +17,5 @@ spec:
   values:
     replicaCount: 3
     image:
-      repository: ghcr.io/stefanprodan/podinfo
-      tag: "6.6.1"
+      repository: hello-world
+      tag: "latest"
